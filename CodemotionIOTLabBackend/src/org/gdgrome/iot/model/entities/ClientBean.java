@@ -18,6 +18,7 @@ public class ClientBean {
 		// Generare i metodi di accesso per queste proprietà
 		// Annontare classe e chiave primaria come spiegato
 		// Nel costruttore privo di parametri inizializzare registrationId e timestamp
+		// Inserire anche un costruttore con parametro di input registrationId
 	
 		
 		

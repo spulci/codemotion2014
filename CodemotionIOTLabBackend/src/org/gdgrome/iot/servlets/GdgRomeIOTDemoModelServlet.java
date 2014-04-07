@@ -17,8 +17,8 @@ public class GdgRomeIOTDemoModelServlet extends HttpServlet {
 		
 		String messaggio = req.getParameter("messaggio");
 		
-		MessageDao daoMessagge = new MessageDao();
-		daoMessagge.sendMessagge(messaggio);
+		MessageDao daoMessage = new MessageDao();
+		daoMessage.sendMessagge(messaggio);
 		
 		resp.sendRedirect("/jsp/risposta.jsp");
 	

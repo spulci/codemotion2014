@@ -74,7 +74,7 @@ public class ClientDao implements IClientDao {
 		return clientBean;
 	}
     
-	//TODO 2: realizziamo il servizio che memorizza un clientBean nel datastore	
+	//TODO 2: Realizziamo il servizio che memorizza un clientBean nel datastore	
 	@Override
 	public synchronized void addClientBean(ClientBean entity) {
 		log.info(ClientDao.class.getName() + ": addClientBean() with clientBean registration id = " + entity.getRegistrationId());
